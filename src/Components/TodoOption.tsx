@@ -19,7 +19,7 @@ const TodoOption = (props: TodoOptionProps): JSX.Element => {
   return (
     <Box
       direction="row"
-      gap="medium"
+      gap="small"
     >
       <Button
         icon={<Erase color="status-critical" />}
